@@ -1,0 +1,14 @@
+.body{
+    background-color: black;
+    font-family: roboto, sans-serif;
+    font-size: 12;
+    color: #FFFFFF;
+}
+.center-flex{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.searchBar{
+    text-align: center;
+}

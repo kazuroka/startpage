@@ -1,4 +1,4 @@
-.body{
+body{
     background-color: #000000;
     font-family: roboto, sans-serif;
     font-size: 12;
@@ -9,6 +9,55 @@
     width: 100%;
     justify-content: center;
 }
+.container{
+    max-width: 500px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+}
+#searchContainer{
+    background-color: #1f2326;
+    transition: .2s cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+                0 3px 1px -2px rgba(0,0,0,.2),
+                0 1px 5px 0 rgba(0,0,0,.12);
+}
 .searchBar{
     text-align: center;
+}
+.container-search input{
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    font-size: 1.76em;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: 0px;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
 }
